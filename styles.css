@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(40, 47, 54);
+}
+#email{
+    background-color: black;
+    color: antiquewhite;
+    max-width: 50%;
+    min-width: 600px;
+    height: 40vh;
+    padding: 40px;
+    margin: 20% auto;
+    border-radius: 10px;
+}
+
+#confidential, #top-secret {
+    border: 2px solid red;
+    display: inline-block;
+    padding: 1px;
+    width: 110px;
+    text-align: center;
+}
+
+#confidential {
+    transform: translate(350px) rotate(-40deg)  ;
+}
+
+#top-secret {
+    transform: translate(0px, 160px) rotate(-40deg);
+}
+.blurred {
+    filter: blur(3px);
+}
